@@ -1,7 +1,7 @@
 class User
 
   @@all = []
-  
+
   attr_accessor :name
 
   def initialize(name)
@@ -49,6 +49,7 @@ class User
     y.map do |card|
       card.recipe
     end
+    y
   end
   
   # User#most_recent_recipe should return the recipe most recently added to the user's cookbook.

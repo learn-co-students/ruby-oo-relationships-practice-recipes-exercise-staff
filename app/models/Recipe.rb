@@ -30,6 +30,7 @@ class Recipe
     x.map do |recipe|
       recipe.user
     end
+    x
   end
 
   # Recipe#ingredients should return all of the ingredients in this recipe
